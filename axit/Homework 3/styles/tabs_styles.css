@@ -85,13 +85,13 @@
 .item__actions {
 	padding: 16.6px 90px;
 	text-align: center;
-	text-decoration: none; 
-    background-color: #EC7979;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 25px;
-    color: #FFFFFF;
-    margin-left: 64px;
+	text-decoration: none;
+	background-color: #EC7979;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 25px;
+	color: #FFFFFF;
+	margin-left: 64px;
 }
