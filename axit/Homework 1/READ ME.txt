@@ -1,0 +1,22 @@
+Task 1
+1. Red frame - parent block
+2. Green frame - child block/element
+3. Yellow frame - descendant block/element
+
+The task was performed according to real sites structure
+
+Task 2
+Done
+
+Task 3
+Done
+
+Task 4
+Done
+https://tpverstak.ru/common-css-class-names/
+
+Task 5
+Done
+
+Task 6
+Done

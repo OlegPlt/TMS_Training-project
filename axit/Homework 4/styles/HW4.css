@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500&display=swap');
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.block {
+    width: 555px;
+    height: 296px;
+    margin: 0 10px;
+    display: inline-block;
+    background: linear-gradient(to right,#D943C9,#008BF0);
+}
+
+.block__image-drone {
+    width: 275px;
+    height: 231px;
+    float: right;
+    transform: rotate(-10deg);
+    margin-left: -50px;
+    margin-right: 45px;
+}
+
+.block__image-camera {
+    width: 238px;
+    height: 151px;
+    float: right;
+    transform: rotate(-5deg);
+    margin-top: 45px;
+    margin-right: 30px;
+}
+
+.block__discount {
+    width: 241px;
+    height: 27px;
+    margin-left: 35px;
+    margin-top: 75px;
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    color: #F4F9FC;
+    text-align: left;
+}
+
+.block__main-content {
+    width: 249px;
+    height: 81px;
+    margin-left: 35px;
+    margin-top: 5px;
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 31px;
+    line-height: 40px;
+    color: #F4F9FC;
+    text-align: left;
+}
+
+.block__additional-info {
+    width: 76px;
+    height: 27px;
+    margin-left: 35px;
+    margin-top: 7px;
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 27px;
+    color: #F4F9FC;
+}
