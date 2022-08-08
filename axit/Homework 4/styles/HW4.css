@@ -43,6 +43,7 @@
     line-height: 27px;
     color: #F4F9FC;
     text-align: left;
+    opacity: 0.6;
 }
 
 .block__main-content {
@@ -70,4 +71,5 @@
     font-size: 14px;
     line-height: 27px;
     color: #F4F9FC;
+    text-transform: uppercase;
 }
