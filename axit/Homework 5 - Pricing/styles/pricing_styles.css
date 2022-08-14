@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap');
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 170px;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.description__title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.description__separator {
+    width: 170px;
+    border: 1px solid #EC7979;
+}
+
+.description__text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+}
+
+.blocks {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+} 
+
+.blocks__content {
+    display: flex;
+    margin: 50px -15px 0px -15px;
+    max-width: 70%;
+    align-items: flex-end;
+    flex-grow: 1;
+}
+
+.blocks__item {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+    flex-grow: 1;
+    height: 97%;
+}
+
+.item__title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: capitalize;
+    background-color: #333333;
+    color: #FFFFFF;
+    height: 50px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item__cost {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    background-color: #333333;
+    color: #FFFFFF;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.item__description {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: #333333;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.item__options {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.item__options li {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #86878B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    display: flex;
+}
+
+.blocks__item:hover {
+    align-self: flex-start;
+}
+
+.item div {
+    border: 1px solid white;
+}
+
+.item li {
+    border: 1px solid #F5F5F5;
+}
