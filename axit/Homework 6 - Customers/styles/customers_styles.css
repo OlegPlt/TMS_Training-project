@@ -47,7 +47,7 @@
 
 .customers__content {
     display: flex;
-    max-width: 75%;
+    max-width: 80%;
     margin: 0 -15px;
 }
 .customers__block {
@@ -73,6 +73,7 @@
     align-items: center;
     text-align: center;
     overflow: auto;
+    padding: 0 7%;
 }
 
 .customers__info {
