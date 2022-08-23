@@ -95,7 +95,7 @@
 }
 
 .banner__form {
-    width: 31%;
+    width: 35%;
     height: 450px;
     background: #FFFFFF;
     border-radius: 10px;
@@ -121,10 +121,11 @@
     line-height: 33px;
     text-transform: uppercase;
     color: #333333;
-    height: 90px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 28px 0;
+}
+
+.form__free {
+    color: #EC7979;
 }
 
 .form__field {

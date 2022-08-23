@@ -2,10 +2,11 @@
 
 .pricing {
     width: 100%;
-    min-height: 100%;
+    height: 900px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: #F5F5F5;;
 }
 
 .pricing-blocks {
@@ -16,8 +17,9 @@
 
 .pricing-blocks__content {
     display: flex;
-    margin: 50px -15px 0px -15px;
+    margin: 50px 0px 0px 0px;
     max-width: 80%;
+    justify-content: space-between;
     align-items: flex-end;
     flex-grow: 1;
     height: 510px;
@@ -26,9 +28,11 @@
 .pricing-blocks__item {
     display: flex;
     flex-direction: column;
-    padding: 0 15px;
+    justify-content: space-between;
     flex-grow: 1;
+    max-width: 30%;
     height: 97%;
+    transition-duration: 0.3s;
 }
 
 .pricing-blocks__title {
@@ -54,7 +58,7 @@
     line-height: 42px;
     background-color: #333333;
     color: #FFFFFF;
-    height: 80px;
+    height: 90px;
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -92,13 +96,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40px;
+    height: 50px;
     display: flex;
+    background-color: #FFFFFF;
 }
 
 .pricing-blocks__item:hover {
-    align-self: flex-start;
     box-shadow: 0px 4px 10px rgba(51, 51, 51, 0.2);
+    margin-bottom: 10px;
 }
 
 .pricing-blocks__item div {
