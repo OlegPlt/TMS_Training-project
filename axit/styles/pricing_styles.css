@@ -1,58 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap');
 
-.wrapper {
+.pricing {
     width: 100%;
-    margin: 0 auto;
-}
-
-.description {
+    min-height: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    height: 170px;
-    justify-content: space-around;
-    margin-top: 10px;
+    justify-content: center;
 }
 
-.description__title {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 42px;
-    text-transform: uppercase;
-    color: #000000;
-}
-
-.description__separator {
-    width: 170px;
-    border: 1px solid #EC7979;
-}
-
-.description__text {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    color: #86878B;
-}
-
-.blocks {
+.pricing-blocks {
     max-width: 100%;
     display: flex;
     justify-content: center;
 } 
 
-.blocks__content {
+.pricing-blocks__content {
     display: flex;
     margin: 50px -15px 0px -15px;
-    max-width: 70%;
+    max-width: 80%;
     align-items: flex-end;
     flex-grow: 1;
+    height: 510px;
 }
 
-.blocks__item {
+.pricing-blocks__item {
     display: flex;
     flex-direction: column;
     padding: 0 15px;
@@ -60,7 +31,7 @@
     height: 97%;
 }
 
-.item__title {
+.pricing-blocks__title {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
@@ -75,7 +46,7 @@
     align-items: center;
 }
 
-.item__cost {
+.pricing-blocks__cost {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -89,7 +60,7 @@
     align-items: center; 
 }
 
-.item__description {
+.pricing-blocks__description {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
@@ -103,14 +74,14 @@
     align-items: center; 
 }
 
-.item__options {
+.pricing-blocks__options {
     display: flex;
     flex-direction: column;
     padding: 0;
     margin: 0;
 }
 
-.item__options li {
+.pricing-blocks__options li {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
@@ -125,14 +96,14 @@
     display: flex;
 }
 
-.blocks__item:hover {
+.pricing-blocks__item:hover {
     align-self: flex-start;
 }
 
-.item div {
+.pricing-blocks__item div {
     border: 1px solid white;
 }
 
-.item li {
+.pricing-blocks__item li {
     border: 1px solid #F5F5F5;
 }

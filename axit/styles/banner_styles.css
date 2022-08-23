@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Raleway:wght@500&display=swap');
+
+.header {
+    width: 100%;
+    height: 75px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    margin-left: 7%;
+}
+
+.header__menu {
+    width: 40%;
+    margin-right: 11%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__item {
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.banner {
+    height: 1026px;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/banner/image.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 5%;
+}
+
+.banner__content {
+    max-width: 44%;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.banner__title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.banner__separator {
+    width: 170px;
+    margin: 0;
+    border: 1px solid #FFFFFF;
+}
+
+.banner__text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    max-width: 40%;
+}
+
+.banner__button {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    height: 58px;
+    background: none;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    max-width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.banner__form {
+    width: 31%;
+    height: 450px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form__fields {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: space-between;
+}
+
+.form__title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #333333;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form__field {
+    width: 100%;
+    height: 38px;
+    border: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
+    outline: none;
+}
+
+.form__button {
+    width: 100%;
+    height: 60px;
+    border: none;
+    background: #EC7979;
+    border-radius: 0px 0px 10px 10px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.form__separator {
+    margin: 0;
+    border: 1px solid #BDBDBD;
+}
+
+.banner-footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #F8EFEF;
+}
+
+.social {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.social__title {
+    height: 60px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: capitalize;
+    color: #333333;
+    display: flex;
+    align-items: center;
+}
+
+.social__text {
+    height: 42px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+    max-width: 75%;
+}
+
+.social__links {
+    display: flex;
+    width: 55%;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway&display=swap');
+
+.tabs {
+    max-width: 80%;
+    height: 540px;
+}
+
+.tabs__items {
+    display: flex;
+}
+
+.tabs__body {
+    border: 1px solid #C6CBCD;
+}
+
+.tabs__item {
+    flex: 0 1 17%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.tabs__item span {
+    position: relative;
+    z-index: 2;
+}
+
+.tabs__block {
+    display: none;
+    position: relative;
+}
+
+.tabs__block:nth-child(1) {
+    background-color: white;
+}
+
+.tabs__block:nth-child(2) {
+    background-color: white;
+}
+
+.tabs__block:nth-child(3) {
+    background-color: white;
+}
+
+.tabs__block:target {
+    display: flex;
+}
+
+.tabs__block:before {
+    content: "";
+    height: 39px;
+    width: 17%;
+    position: absolute;
+    top: -40px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.tabs__block:nth-child(1):before {
+    background-color: white;
+    left: -1px;
+    border: 1px solid #C6CBCD;
+    border-bottom: none;
+}
+
+.tabs__block:nth-child(2):before {
+    background-color: white;
+    left: 17%;
+    border: 1px solid #C6CBCD;
+    border-bottom: none;
+}
+
+.tabs__block:nth-child(3):before {
+    background-color: white;
+    right: 49%;
+    border: 1px solid #C6CBCD;
+    border-bottom: none;
+}
+
+.tabs-content-wrapper {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.block__content {
+    max-width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.block__title {
+    height: 124px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+}
+
+.block__description {
+    height: 210px;
+    display: flex;
+    align-items: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.block__actions {
+    height: 58px;
+    width: 45%;
+    background: #EC7979;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-top: 10%;
+}
+
+.image {
+    height: 100%;
+    object-fit: fill;
+}
+
+.tabs__block:last-child {
+	display: flex;
+}
+
+.tabs__block:target ~ .tabs__block {
+	display: none;
+}
