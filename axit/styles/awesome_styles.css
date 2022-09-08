@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap');
-
 .awesome {
     max-width: 80%;
     height: 665px;
@@ -43,3 +41,63 @@
     color: #000000;
     text-align: center;
 }
+
+/*@media (max-width: 1024px) {
+    .awesome {
+        justify-content: space-around;
+        max-width: 95%;
+    }
+    .awesome-block__title {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .awesome-block__content {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .awesome-block__image {
+        transform: scale(0.85);
+    }
+}
+
+@media (max-width: 320px) and (orientation: portrait) {
+
+    .awesome {
+        height: 1199px;
+        justify-content: flex-start;
+    }
+
+    .awesome__blocks {
+        flex-direction: column;
+        height: 974px;
+        margin: 0;
+        justify-content: space-around;
+    }
+
+    .awesome-block {
+        padding: 0;
+        justify-content: space-around;
+    }
+
+    .awesome__title {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .awesome-block__title {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .awesome-block__content {
+        font-size: 14px;
+        line-height: 16px;
+        max-width: 90%;
+    }
+
+    .awesome-block__image {
+        transform: scale(0.8);
+    }
+} */

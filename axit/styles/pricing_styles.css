@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap');
-
 .wrapper_pricing {
     padding-top: 0;
 }
@@ -117,3 +115,71 @@
 .pricing-blocks__item li {
     border: 1px solid #F5F5F5;
 }
+
+/*@media (max-width: 1024px) {
+    .pricing-blocks__content {
+        max-width: 95%;
+    }
+
+    .pricing-blocks__item {
+        max-width: 33%;
+        transform: scale(0.9);
+    }
+}
+
+@media (max-width: 320px) and (orientation: portrait) {
+    .pricing {
+        height: 1480px;
+        justify-content: flex-start;
+    }
+    
+    .pricing-description__title {
+        font-size: 24px;
+        line-height: 28px; 
+    }
+
+    .pricing-blocks__content {
+        flex-direction: column;
+        margin: 0;
+        max-width: 90%;
+        align-items: center;
+        height: 1254px;
+        margin: 0 -15px;
+    }
+
+    .pricing-blocks__item {
+        width: 100%;
+        max-width: none;
+        height: 400px;
+        padding: 15px 0;
+    }
+
+    .pricing-blocks__title {
+        height: 47px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .pricing-blocks__cost {
+        height: 78px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .pricing-blocks__description {
+        height: 39px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .pricing-blocks__options li {
+        height: 39px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .pricing-blocks__item:hover {
+        box-shadow: none;
+        margin-bottom: 0;
+    }
+}*/

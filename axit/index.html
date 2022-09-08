@@ -4,29 +4,46 @@
 <head>
     <title>AXIT</title>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/styles.css">
-    <link rel="stylesheet" href="./styles/tabs_styles.css">
-    <link rel="stylesheet" href="./styles/awesome_styles.css">
-    <link rel="stylesheet" href="./styles/pricing_styles.css">
-    <link rel="stylesheet" href="./styles/banner_styles.css">
-    <link rel="stylesheet" href="./styles/customers_styles.css">
-    <link rel="stylesheet" href="./styles/banner2_contact_footer_styles.css">
 </head>
 
 <body>
     <header class="header">
-        <div class="header__logo">
-            <img src="./images/banner/AX.png" alt="">
-            <img src="./images/banner/IT.png" alt="">
-        </div>
 
-        <nav class="header__menu">
-            <a class="header__item" href="#features">Features</a>
-            <a class="header__item" href="#about">About</a>
-            <a class="header__item" href="#pricing">Pricing</a>
-            <a class="header__item" href="#reviews">Reviews</a>
-            <a class="header__item" href="#contact">Contact</a>
-        </nav>
+
+        <div class="menu">
+            <div class="header__logo">
+                <img src="./images/banner/AX.png" alt="AX">
+                <img src="./images/banner/IT.png" alt="IT">
+            </div>
+
+            <div class="menu-mobile">
+                <input type="checkbox" id="menu-check">
+                <label class="banner-label" for="menu-check"></label>
+                <div class="burger-line first"></div>
+                <div class="burger-line second"></div>
+                <div class="burger-line third"></div>
+                <div class="burger-line fourth"></div>
+                <nav class="main-menu">
+                    <a class="main-menu__item" href="#features">Features</a>
+                    <a class="main-menu__item" href="#about">About</a>
+                    <a class="main-menu__item" href="#pricing">Pricing</a>
+                    <a class="main-menu__item" href="#reviews">Reviews</a>
+                    <a class="main-menu__item" href="#contact">Contact</a>
+                    <div class="stab"></div>
+                </nav>
+            </div>
+
+            <nav class="header__menu">
+                <a class="header__item" href="#features">Features</a>
+                <a class="header__item" href="#about">About</a>
+                <a class="header__item" href="#pricing">Pricing</a>
+                <a class="header__item" href="#reviews">Reviews</a>
+                <a class="header__item" href="#contact">Contact</a>
+            </nav>
+        </div>
     </header>
 
     <main>
@@ -34,8 +51,8 @@
             <div class="banner">
                 <div class="banner__content">
                     <div class="banner__logo">
-                        <img src="./images/banner/AX2.png" alt="">
-                        <img src="./images/banner/IT2.png" alt="">
+                        <img src="./images/banner/AX2.png" alt="AX">
+                        <img src="./images/banner/IT2.png" alt="IT">
                     </div>
     
                     <div class="banner__title">
@@ -95,147 +112,129 @@
                     <nav class="social__links">
                         <p>
                             <a href="https://www.facebook.com/" target="_blank">
-                                <img src="./images/banner/facebook_icon.png" alt="">
-                            </a>
-                                
+                                <img src="./images/banner/facebook_icon.png" alt="Facebook">
+                            </a>    
                         </p>
     
                         <p>
                             <a href="https://www.twitter.com/" target="_blank">
-                            <img src="./images/banner/twitter_icon.png" alt="">
-                            </a>
-                                
+                            <img src="./images/banner/twitter_icon.png" alt="Twitter">
+                            </a>     
                         </p>
     
                         <p>
                             <a href="https://www.linkedin.com/" target="_blank">
-                                <img src="./images/banner/linkedin_icon.png" alt="">
-                            </a>
-                                
+                                <img src="./images/banner/linkedin_icon.png" alt="Linked In">
+                            </a>  
                         </p>
     
                         <p>
                             <a href="https://www.pinterest.com/" target="_blank">
-                            <img src="./images/banner/pinterest_icon.png" alt="">
-                            </a>
-                                
+                            <img src="./images/banner/pinterest_icon.png" alt="Pinterest">
+                            </a>  
                         </p>
     
                         <p>
                             <a href="https://www.instagram.com/" target="_blank">
-                            <img src="./images/banner/instagram_icon.png" alt="">
-                            </a>
-                                
+                            <img src="./images/banner/instagram_icon.png" alt="Instagram">
+                            </a> 
                         </p>
     
                         <p>
                             <a href="https://www.github.com/" target="_blank">
-                            <img src="./images/banner/github_icon.png" alt="">
+                            <img src="./images/banner/github_icon.png" alt="Github">
                             </a>
-                                
                         </p>
     
                         <p>
                             <a href="https://www.rss.com/" target="_blank">
-                            <img src="./images/banner/rss_icon.png" alt="">
+                            <img src="./images/banner/rss_icon.png" alt="RSS">
                             </a>       
                         </p>
                     </nav>
                 </footer>
             </div>
         </div>
-        
-        <div class="wrapper" id="features">
-            <div class="tabs">
-                <nav class="tabs__items">
-                    <a href="#tab1" class="tabs__item"><span>TAB1</span></a>
-                    <a href="#tab2" class="tabs__item"><span>TAB2</span></a>
-                    <a href="#tab3" class="tabs__item"><span>TAB3</span></a>
-                </nav>
-    
-                <div class="tabs__body">
-    
-                    <div class="tabs__block block" id="tab1">
-                        <div class="tabs-content-wrapper">
-                            <div class="block__content">
-                                <div class="block__title">
-                                    Tab 1<br> Tabs with soft transitioning effect.
-                                </div>
-        
-                                <div class="block__description">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
-                                    bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
-                                    justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
-                                    penatibus et magnis dis parturient montes. <br> <br>
-            
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
-                                    bibendum laoreet.
-                                </div>
-        
-                                <a href="#" class="block__actions">Download</a> 
-                            </div>
+
+        <div class="tabs-container" id="features">
+            <div class="wrapper tab-wrapper">
+                <input type="radio" name="tab" id="tab1" checked />
+                <label class="tab-label" for="tab1" nth="1">TAB 1</label>
+                <div class="tab-item" id="tab-content1">
+                    <div class="tab-block">
+                        <div class="block__title">
+                            Tabs with soft transitioning effect.
                         </div>
-    
-                        <div class="block__image">
-                            <img class="image" src="./images/tabs/Rectangle 111.jpg" alt="Image not found" />
+        
+                        <div class="block__description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+                            justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+                            penatibus et magnis dis parturient montes. <br> <br>
+        
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                            bibendum laoreet.
+                            <a href="#" class="block__actions">Download</a> 
                         </div>
                     </div>
     
-                    <div class="tabs__block block" id="tab2">
-                        <div class="tabs-content-wrapper">
-                            <div class="block__content">
-                                <div class="block__title">
-                                    Tab 2<br> Tabs with soft transitioning effect.
-                                </div>
-        
-                                <div class="block__description">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
-                                    bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
-                                    justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
-                                    penatibus et magnis dis parturient montes. <br> <br>
-            
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
-                                    bibendum laoreet.
-                                </div>
-        
-                                <a href="#" class="block__actions">Download</a> 
-                            </div>
-                        </div>
+                    <div>
+                        <img class="tab-image" src="./images/tabs/Rectangle 111.jpg" alt="Image" />
+                    </div>
+                </div>
     
-                        <div class="block__image">
-                            <img class="image"  src="./images/tabs/Rectangle 111.jpg" alt="Image not found" />
+                <input type="radio" name="tab" id="tab2" />
+                <label class="tab-label no-select" for="tab2" nth="2">TAB 2</label>
+                <div class="tab-item" id="tab-content2">
+                    <div class="tab-block">
+                        <div class="block__title">
+                            Tabs with soft transitioning effect.
                         </div>
+        
+                        <div class="block__description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+                            justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+                            penatibus et magnis dis parturient montes. <br> <br>
+        
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                            bibendum laoreet.
+                            <a href="#" class="block__actions">Download</a> 
+                        </div>  
                     </div>
     
-                    <div class="tabs__block block" id="tab3">
-                        <div class="tabs-content-wrapper">
-                            <div class="block__content">
-                                <div class="block__title">
-                                    Tab 3<br> Tabs with soft transitioning effect.
-                                </div>
-        
-                                <div class="block__description">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
-                                    bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
-                                    justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
-                                    penatibus et magnis dis parturient montes. <br> <br>
-            
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
-                                    bibendum laoreet.
-                                </div>
-        
-                                <a href="#" class="block__actions">Download</a> 
-                            </div>
-                        </div>
+                    <div>
+                        <img class="tab-image" src="./images/tabs/Rectangle 111.jpg" alt="Image" />
+                    </div>
+                </div>
     
-                        <div class="block__image">
-                            <img class="image"  src="./images/tabs/Rectangle 111.jpg" alt="Image not found" />
+                <input type="radio" name="tab" id="tab3" />
+                <label class="tab-label no-select" for="tab3" nth="3">TAB 3</label>
+                <div class="tab-item" id="tab-content3">
+                    <div class="tab-block">
+                        <div class="block__title">
+                            Tabs with soft transitioning effect.
                         </div>
+        
+                        <div class="block__description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+                            justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+                            penatibus et magnis dis parturient montes. <br> <br>
+        
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                            bibendum laoreet.
+                            <a href="#" class="block__actions">Download</a> 
+                        </div>  
+                    </div>
+    
+                    <div>
+                        <img class="tab-image" src="./images/tabs/Rectangle 111.jpg" alt="Image" />
                     </div>
                 </div>
             </div>
         </div>
-    
+        
         <div class="wrapper" id="about">
             <div class="awesome">
                 <div class="awesome__description description">
@@ -254,7 +253,7 @@
     
                 <div class="awesome__blocks">
                     <div class="awesome-block">
-                        <img class="awesome-block__image" src="./images/awesome/about_icon_1.jpg" alt="Image not found"/>
+                        <img class="awesome-block__image" src="./images/awesome/about_icon_1.jpg" alt="Image"/>
         
                         <div class="awesome-block__title">
                             Thoughtful Design
@@ -268,7 +267,7 @@
                     </div>
         
                     <div class="awesome-block">
-                        <img class="awesome-block__image" src="./images/awesome/about_icon_2.jpg" alt="Image not found" />
+                        <img class="awesome-block__image" src="./images/awesome/about_icon_2.jpg" alt="Image" />
     
                         <div class="awesome-block__title">
                             Thoughtful Design
@@ -282,7 +281,7 @@
                     </div>
         
                     <div class="awesome-block">
-                        <img class="awesome-block__image" src="./images/awesome/about_icon_3.jpg" alt="Image not found" />
+                        <img class="awesome-block__image" src="./images/awesome/about_icon_3.jpg" alt="Image" />
     
                         <div class="awesome-block__title">
                             Thoughtful Design
@@ -407,91 +406,106 @@
         
                 <div class="customers-blocks">
                     <div class="customers-blocks__content">
-                        <div class="customers-blocks__item">
-                            <div>
-                                <div class="customers-blocks__text">
-                                    Lorem ipsum dolor sit amet,
-                                    consectetur adipisicing elit. Doloribus
-                                    accusamus expedita repellat similique
-                                    odio aspernatur ex, architecto eaque
-                                    quo suscipit.
-                                </div>
-                                <div id="triangle-down"></div>
-                            </div>
-            
-                            <div class="customers-blocks__info info">
-                                <div class="info__photo">
-                                    <img src="./images/customers/Ellipse 7.png" alt="File not found">
-                                </div>
-            
-                                <div class="info__personalities">
-                                    <div class="info__name">
-                                        Davis Rhiel Madsen
+                        <input type="radio" name="r" id="r1" checked>
+                        <input type="radio" name="r" id="r2">
+                        <input type="radio" name="r" id="r3">
+                        <div class="customers-blocks__item i1">
+                            <div class="customers-blocks__wrapper">
+                                <div>
+                                    <div class="customers-blocks__text">
+                                        Lorem ipsum dolor sit amet,
+                                        consectetur adipisicing elit. Doloribus
+                                        accusamus expedita repellat similique
+                                        odio aspernatur ex, architecto eaque
+                                        quo suscipit.
                                     </div>
-            
-                                    <div class="info__title">
-                                        Manager
+                                    <div id="triangle-down"></div>
+                                </div>
+                
+                                <div class="customers-blocks__info info">
+                                    <div class="info__photo">
+                                        <img src="./images/customers/Ellipse 7.png" alt="Customer 1">
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-            
-                        <div class="customers-blocks__item">
-                            <div>
-                                <div class="customers-blocks__text">
-                                    Lorem ipsum dolor sit amet,
-                                    consectetur adipisicing elit. Doloribus
-                                    accusamus expedita repellat similique
-                                    odio aspernatur ex, architecto eaque
-                                    quo suscipit.
-                                </div>
-                                <div id="triangle-down"></div>
-                            </div>
-            
-                            <div class="customers-blocks__info info">
-                                <div class="info__photo">
-                                    <img src="./images/customers/Ellipse 7(2).png" alt="File not found">
-                                </div>
-            
-                                <div class="info__personalities">
-                                    <div class="info__name">
-                                        Jaydon Rosser
-                                    </div>
-            
-                                    <div class="info__title">
-                                        Manager
+                
+                                    <div class="info__personalities">
+                                        <div class="info__name">
+                                            Davis Rhiel Madsen
+                                        </div>
+                
+                                        <div class="info__title">
+                                            Manager
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
             
                         <div class="customers-blocks__item">
-                            <div>
-                                <div class="customers-blocks__text">
-                                    Lorem ipsum dolor sit amet,
-                                    consectetur adipisicing elit. Doloribus
-                                    accusamus expedita repellat similique
-                                    odio aspernatur ex, architecto eaque
-                                    quo suscipit.
-                                </div>
-                                <div id="triangle-down"></div>
-                            </div>
-                            
-                            <div class="customers-blocks__info info">
-                                <div class="info__photo">
-                                    <img src="./images/customers/Ellipse 7(3).png" alt="File not found">
-                                </div>
-            
-                                <div class="info__personalities">
-                                    <div class="info__name">
-                                        Cooper Dorwart
+                            <div class="customers-blocks__wrapper">
+                                <div>
+                                    <div class="customers-blocks__text">
+                                        Lorem ipsum dolor sit amet,
+                                        consectetur adipisicing elit. Doloribus
+                                        accusamus expedita repellat similique
+                                        odio aspernatur ex, architecto eaque
+                                        quo suscipit.
                                     </div>
-            
-                                    <div class="info__title">
-                                        Manager
+                                    <div id="triangle-down"></div>
+                                </div>
+                
+                                <div class="customers-blocks__info info">
+                                    <div class="info__photo">
+                                        <img src="./images/customers/Ellipse 7(2).png" alt="Customer 2">
+                                    </div>
+                
+                                    <div class="info__personalities">
+                                        <div class="info__name">
+                                            Jaydon Rosser
+                                        </div>
+                
+                                        <div class="info__title">
+                                            Manager
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                        </div>
+            
+                        <div class="customers-blocks__item">
+                            <div class="customers-blocks__wrapper">
+                                <div>
+                                    <div class="customers-blocks__text">
+                                        Lorem ipsum dolor sit amet,
+                                        consectetur adipisicing elit. Doloribus
+                                        accusamus expedita repellat similique
+                                        odio aspernatur ex, architecto eaque
+                                        quo suscipit.
+                                    </div>
+                                    <div id="triangle-down"></div>
+                                </div>
+                                
+                                <div class="customers-blocks__info info">
+                                    <div class="info__photo">
+                                        <img src="./images/customers/Ellipse 7(3).png" alt="Customer 3">
+                                    </div>
+                
+                                    <div class="info__personalities">
+                                        <div class="info__name">
+                                            Cooper Dorwart
+                                        </div>
+                
+                                        <div class="info__title">
+                                            Manager
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="navigation" id="active">
+                            <label for="r1" class="bar bar1"></label>
+                            <label for="r2" class="bar bar2"></label>
+                            <label for="r3" class="bar bar3"></label>
                         </div>
                     </div>
                 </div>
@@ -563,43 +577,43 @@
         <nav class="footer__links">
             <p>
                 <a href="https://www.facebook.com/" target="_blank">
-                    <img src="./images/footer/facebook_icon.png" alt="Not found">
+                    <img src="./images/footer/facebook_icon.png" alt="Facebook">
                 </a>
             </p>
 
             <p>
                 <a href="https://www.twitter.com/" target="_blank">
-                    <img src="./images/footer/twitter_icon.png" alt="Not found">
+                    <img src="./images/footer/twitter_icon.png" alt="Twitter">
                 </a>   
             </p>
 
             <p>
                 <a href="https://www.linkedin.com/" target="_blank">
-                    <img src="./images/footer/linkedin_icon.png" alt="Not found">
+                    <img src="./images/footer/linkedin_icon.png" alt="Linked In">
                 </a>
             </p>
 
             <p>
                 <a href="https://www.pinterest.com/" target="_blank">
-                    <img src="./images/footer/pinterest_icon.png" alt="Not found">
+                    <img src="./images/footer/pinterest_icon.png" alt="Pinterest">
                 </a>   
             </p>
 
             <p>
                 <a href="https://www.instagram.com/" target="_blank">
-                    <img src="./images/footer/instagram_icon.png" alt="Not found">
+                    <img src="./images/footer/instagram_icon.png" alt="Instagram">
                 </a>
             </p>
 
             <p>
                 <a href="https://www.github.com/" target="_blank">
-                    <img src="./images/footer/github_icon.png" alt="Not found">
+                    <img src="./images/footer/github_icon.png" alt="Github">
                 </a>
             </p>
 
             <p>
                 <a href="https://www.rss.com/" target="_blank">
-                    <img src="./images/footer/rss_icon.png" alt="Not found">
+                    <img src="./images/footer/rss_icon.png" alt="RSS">
                 </a> 
             </p>
         </nav>
