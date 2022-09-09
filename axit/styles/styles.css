@@ -71,6 +71,20 @@ body {
     color: #86878B;
 }
 
+.banner2__title {
+    color: #FFFFFF;
+}
+
+.banner2__separator {
+    width: 170px;
+    border: 1px solid #FFFFFF;
+    margin: 0;
+}
+
+.banner2__text {
+    color: #FFFFFF;
+}
+
 @media (max-width: 1024px) {
     body {
         margin: 0;
