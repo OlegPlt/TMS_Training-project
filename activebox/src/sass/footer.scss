@@ -1,0 +1,147 @@
+.footer {
+    height: 341px;
+    background: #353C65;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    @media (max-width:1024px) {
+        height: 229px;
+    }
+    @media (max-width:320px) {
+        height: 540px;
+    }
+    .footer-blocks {
+        display: flex;
+        max-width: 80%;
+        height: 251px;
+        align-items: center;
+        margin: 0 -15px;
+        @media (max-width:1024px) {
+            height: 168px;
+            max-width: 100%;
+        }
+        @media (max-width:320px) {
+            height: 450px;
+            max-width: 100%;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        .footer-block {
+            width: 33.333%;
+            height: 113px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0 15px;
+            @media (max-width:1024px) {
+                height: 78px;
+            }
+            @media (max-width:320px) {
+                height: 103px;
+                width: 90%;
+            }
+            .footer-block-title {
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 21px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                text-align: center;
+                @media (max-width:1024px) {
+                    font-size: 14px;
+                    line-height: 16px;
+                }
+            }
+            .footer-address {
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 21px;
+                text-align: center;
+                text-transform: capitalize;
+                color: #FFFFFF;
+                margin-top: 29px;
+                @media (max-width:1024px) {
+                    margin-top: 18px;
+                    font-size: 14px;
+                    line-height: 16px;
+                }
+                @media (max-width:320px) {
+                    margin-top: 34px;
+                }
+            }
+            .footer-links {
+                display: flex;
+                width: 50%;
+                justify-content: space-around;
+                margin-top: 30px;
+                img {
+                    @media (max-width:1024px) {
+                        transform: scale(.85);
+                    }
+                }
+                @media (max-width:1024px) {
+                    margin-top: 10px;
+                }
+                @media (max-width:320px) {
+                    margin-top: 30px;
+                }
+            }
+            .footer-text {
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 21px;
+                text-align: center;
+                text-transform: capitalize;
+                color: #FFFFFF;
+                margin-top: 29px;
+                @media (max-width:1024px) {
+                    font-size: 14px;
+                    line-height: 16px;
+                    margin-top: 16px;
+                }
+                @media (max-width:320px) {
+                    margin-top: 38px;
+                }
+            }
+        }
+    }
+    .footer-bottom {
+        width: 100%;
+        height: 90px;
+        background: #2C3154;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .footer-bottom-text {
+            max-width: 25%;
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21px;
+            text-align: center;
+            text-transform: capitalize;
+            color: #808080;
+            span {
+                color: #FFFFFF;
+            }
+            @media (max-width:1024px) {
+                max-width: 32%;
+                font-size: 14px;
+                line-height: 16px;
+            }
+            @media (max-width:320px) {
+                max-width: 90%;
+                font-size: 14px;
+                line-height: 16px;
+            }
+        }
+    }
+}

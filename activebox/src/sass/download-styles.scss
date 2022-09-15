@@ -1,0 +1,101 @@
+.download {
+    padding: 110px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media (max-width:320px) {
+        padding: 50px 0;
+    }
+    .download-content {
+        height: 224px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        @media (max-width:1024px) {
+            height: 204px;
+        }
+        @media (max-width:320px) {
+            max-width: 90%;
+            height: 204px;
+        }
+        .download-text {
+            height: 96px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            .download-text-title {
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 30px;
+                line-height: 35px;
+                color: #000000;
+                @media (max-width:1024px) {
+                    max-width: 100%;
+                    font-size: 24px;
+                    line-height: 28px;
+                }
+                @media (max-width:320px) {
+                    font-size: 18px;
+                    line-height: 21px;
+                    text-align: center;
+                }
+            }
+            .download-text-descr {
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 21px;
+                text-transform: uppercase;
+                color: #000000;
+                @media (max-width:1024px) {
+                    font-size: 14px;
+                    line-height: 16px;
+                }
+                @media (max-width:320px) {
+                    font-size: 13px;
+                    line-height: 15px;
+                    text-align: center;
+                }
+            }
+        }
+        .download-button {
+            height: 78px;
+            background-color: #FF4343;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 45%;
+            @media (max-width:1024px) {
+                width: 50%;
+            }
+            @media (max-width:320px) {
+                width: 100%;
+            }
+            a {
+                text-decoration: none;
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 24px;
+                line-height: 28px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                @media (max-width:1024px) {
+                    font-size: 18px;
+                    line-height: 21px;
+                }
+            }
+            &:hover {
+                background: #E71414;
+            }
+            &:active {
+                background: #FF4343;
+                box-shadow: 4px 4px 30px #FF4343;
+            }
+        }
+    }
+}
