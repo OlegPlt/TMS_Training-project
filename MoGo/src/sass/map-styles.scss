@@ -1,0 +1,33 @@
+.map {
+    height: 231px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(../images/map/unsplash_x3REnO9z7io.png) 0 0/cover no-repeat;;
+    margin-top: 85px;
+    .map-content {
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .map-icon {
+            margin: 0 auto;
+        }
+        .map-title {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 36px;
+            line-height: 42px;
+            display: flex;
+            text-transform: uppercase;
+            color: #F38281;
+        }
+        .map-separator {
+            width: 80%;
+            border: 2px solid #F38281;
+            display: flex;
+            align-self: center;
+        }
+    }
+}

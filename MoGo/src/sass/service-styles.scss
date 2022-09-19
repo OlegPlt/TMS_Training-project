@@ -1,0 +1,146 @@
+.service {
+    height: 828px;
+    display: flex;
+    justify-content: center;
+    .service-content {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .service-content-info {
+            height: 250px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .service-title {
+                font-family: 'Kaushan Script';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 30px;
+                line-height: 44px;
+                text-align: center;
+                color: #2D3033;
+            }
+            .service-main {
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 36px;
+                line-height: 42px;
+                text-transform: uppercase;
+                text-align: center;
+                color: #2D3033;
+            }
+            .service-separator {
+                display: flex;
+                align-self: center;
+                width: 15%;
+                border: 2px solid #F38281;
+            }
+            .service-text {
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 21px;
+                text-align: center;
+                color: #000000;
+            }
+        }
+        .service-main-content {
+            height: 483px;
+            display: flex;
+            margin: 0 -15px;
+
+            .service-photo {
+                width: 50%;
+                height: 100%;
+                padding: 0 15px;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+            .service-features {
+                width: 50%;
+                height: 100%;
+                padding: 0 15px;
+                .service-item {
+                    border: 1px solid #C6CBCD;
+                    margin-bottom: 22px;
+                    ::-webkit-scrollbar {
+                        width: 7px;
+                    }
+                    ::-webkit-scrollbar-track {
+                        background: #F5F5F5;
+                    }
+                    ::-webkit-scrollbar-thumb {
+                        background: #95E1D3
+                    }
+                    .service-item-header {
+                        height: 92px;
+                        display: flex;
+                        align-items: center;
+                        padding: 0 2%;
+                        position: relative;
+                        &:after {
+                            content: '';
+                            display: block;
+                            width: 42px;
+                            height: 42px;
+                            position: absolute;
+                            top: 50%;
+                            right: 2%;
+                            transform: translateY(-50%);
+                            background: url('../images/service/arrow_down.png') no-repeat;          
+                        }
+                        .service-item-title {
+                            display: block;
+                            cursor: pointer;
+                            font-family: 'Raleway';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 24px;
+                            line-height: 28px;
+                            text-transform: uppercase;
+                            color: #2D3033;
+                            position: relative;
+                            margin-left: 8%;
+                        }
+                    }
+                    .service-item-input {
+                        width: 0;
+                        height: 0;
+                        appearance: none;
+                        position: absolute;
+                        &:checked ~ .service-item-text {
+                            display: block;
+                        }
+                        &:checked ~ .service-item-header:after {
+                            content: '';
+                            display: block;
+                            width: 42px;
+                            height: 42px;
+                            position: absolute;
+                            top: 50%;
+                            right: 1%;
+                            transform: translateY(-50%);
+                            background-image: url('../images/service/arrow_up.png');   
+                        }
+                    }
+                    .service-item-text {
+                        height: 155px;
+                        display: none;
+                        border-top: 1px solid #C6CBCD;
+                        padding: 3% 4% 3% 3%;
+                        .item-text-wrapper {
+                            height: 100%;
+                            overflow-y: scroll;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

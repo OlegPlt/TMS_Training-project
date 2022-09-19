@@ -1,0 +1,107 @@
+.clients {
+    height: 923px;
+    background: linear-gradient(rgba(255, 255, 255, 0.9),rgba(255, 255, 255, 0.9)), url(../images/clients/unsplash_-qrcOR33ErA.png);
+    display: flex;
+    justify-content: center;
+    .clients-content {
+        max-width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        .clients-content-info {
+            height: 250px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            .clients-title {
+                font-family: 'Kaushan Script';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 30px;
+                line-height: 44px;
+                text-align: center;
+                color: #2D3033;
+            }
+            .clients-main {
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 36px;
+                line-height: 42px;
+                text-transform: uppercase;
+                text-align: center;
+                color: #2D3033;
+            }
+            .clients-separator {
+                display: flex;
+                align-self: center;
+                width: 15%;
+                border: 2px solid #F38281;
+            }
+        }
+        .clients-items {
+            height: 550px;
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 -25px;
+            .clients-item {
+                max-width: 50%;
+                height: 250px;
+                display: flex;
+                padding: 0 25px;
+                justify-content: space-around;
+                .clients-photo {
+                    max-width: 25%;
+                    max-height: 50%;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+                .clients-item-info {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    max-width: 70%;
+                    .clients-about {
+                        height: 103px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        .clients-name {
+                            font-family: 'Raleway';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 24px;
+                            line-height: 28px;
+                            text-transform: uppercase;
+                            color: #2D3033;
+                        }
+                        .clients-title {
+                            font-family: 'Raleway';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 18px;
+                            line-height: 21px;
+                            text-transform: uppercase;
+                            color: #2D3033;
+                        }
+                        .client-separator {
+                            width: 15%;
+                            border: 2px solid #F38281;
+                        }
+                    }
+                }
+                .clients-text {
+                    font-family: 'Raleway';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 21px;
+                    color: #2D3033;
+                }
+            }
+        }
+    }
+}

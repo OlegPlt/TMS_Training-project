@@ -1,0 +1,83 @@
+.amazing {
+    height: 683px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    .amazing-content {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .amazing-content-info {
+            height: 187px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .amazing-title {
+                font-family: 'Kaushan Script';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 30px;
+                line-height: 44px;
+                text-align: center;
+                color: #2D3033;
+            }
+            .amazing-main {
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 36px;
+                line-height: 42px;
+                text-align: center;
+                text-transform: uppercase;
+                color: #2D3033;
+            }
+            .amazing-separator {
+                display: flex;
+                align-self: center;
+                width: 15%;
+                border: 2px solid #F38281;
+            }
+        }
+        .amazing-blocks {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 -15px;
+            height: 428px;
+            justify-content: center;
+            .amazing-block {
+                width: 30%;
+                height: 139px;
+                padding: 0 15px;
+                display: flex;
+                justify-content: space-between;
+                .amazing-block-content {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    max-width: 70%;
+                    max-height: 80%;
+                    .amazing-block-title {
+                        font-family: 'Raleway';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 24px;
+                        line-height: 28px;
+                        text-transform: uppercase;
+                        color: #2D3033;
+                    }
+                    .amazing-block-text {
+                        font-family: 'Raleway';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 21px;
+                        display: flex;
+                        align-items: center;
+                        color: #2D3033;
+                    }
+                }
+            }
+        }
+    }
+}

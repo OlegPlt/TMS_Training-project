@@ -1,0 +1,49 @@
+.futures {
+    height: 250px;
+    background: #95E1D3;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    .futures-content {
+        width: 80%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        .futures-block {
+            width: 20%;
+            height: 100%;
+            border-left: 1px solid #FFFFFF;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .futures-block-content {
+                height: 124px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                .futures-number {
+                    font-family: 'Raleway';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 64px;
+                    line-height: 75px;
+                    text-align: center;
+                    color: #FFFFFF;
+                }
+                .futures-text {
+                    font-family: 'Raleway';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 24px;
+                    line-height: 25px;
+                    text-align: center;
+                    color: #FFFFFF;
+                }
+            }
+        }
+        .futures-block-last {
+            border-right: 1px solid #FFFFFF
+        }
+    }
+}

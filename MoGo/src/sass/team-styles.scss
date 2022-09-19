@@ -1,0 +1,166 @@
+.team {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    height: 950px;
+    .team-content {
+        max-width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .team-content-info {
+            height: 250px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .team-title {
+                font-family: 'Kaushan Script';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 30px;
+                line-height: 44px;
+                text-align: center;
+                color: #2D3033;
+            }
+            .team-main {
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 36px;
+                line-height: 42px;
+                text-align: center;
+                text-transform: uppercase;
+                color: #2D3033;
+            }
+            .team-separator {
+                display: flex;
+                align-self: center;
+                width: 15%;
+                border: 2px solid #F38281;
+            }
+            .team-text {
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 21px;
+                text-align: center;
+                color: #000000;
+            }
+        }
+        .team-blocks {
+            height: 550px;
+            display: flex;
+            justify-content: space-between;
+            .team-block {
+                width: 31%;
+                height: 100%;
+                position: relative;
+                .team-block-content {
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    .team-block-image {
+                        width: 100%;
+                        position: relative;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                        .team-block-hover {
+                            background: linear-gradient(360deg, rgba(237, 215, 137, 0.9) 0%, rgba(233, 130, 131, 0.9) 100%);
+                            width: 100%;
+                            height: 100%;
+                            position: absolute;
+                            right: 16px;
+                            bottom: 16px;
+                            display: none;
+                            justify-content: center;
+                            align-items: center;
+                            .block-hover-content {
+                                width: 100%;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: space-between;
+                                align-items: center;
+                                .block-hover-links {
+                                    width: 45%;
+                                    height: 42px;
+                                    display: flex;
+                                    justify-content: center;
+                                    margin: 0 -0.5px;
+                                    p {
+                                        width: 25%;
+                                        height: 100%;
+                                        padding: 0 0.5px;
+                                        a {
+                                            display: block;
+                                            width: 100%;
+                                            height: 100%;
+                                            background: #F9EFCF;
+                                            &:hover {
+                                                background: #F38281;
+                                            }
+                                        }
+                                    }
+                                    svg {
+                                        width: 100%;
+                                        height: 100%;
+                                        fill: none;
+                                        path {
+                                            fill: #F38281;
+                                        }
+                                        rect {
+                                            width: 100%;
+                                            height: 100%;
+                                            fill: none;
+                                        }
+                                        &:hover {
+                                            path {
+                                                fill: #FFFFFF;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        &:hover {
+                            .team-block-hover {
+                                display: flex;
+                            }
+                        }
+                    }
+                    .team-block-info {
+                        height: 110px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-around;
+                        .team-block-name {
+                            font-family: 'Raleway';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 24px;
+                            line-height: 28px;
+                            text-transform: uppercase;
+                            color: #2D3033;
+                            text-align: center;
+                        }
+                        .team-block-title {
+                            font-family: 'Raleway';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 18px;
+                            line-height: 21px;
+                            text-align: center;
+                            text-transform: uppercase;
+                            color: #2D3033;
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+}
